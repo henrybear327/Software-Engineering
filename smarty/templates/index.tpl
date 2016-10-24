@@ -17,5 +17,11 @@
 {{/section}}
 </table>
 
+<select>
+{{section name=i loop=$roomList step=1}}
+    <option value="{{$roomList[i]}}">{{$roomList[i]}}</option>
+{{/section}}
+</select>
+
 </body>
 </html>

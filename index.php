@@ -38,6 +38,13 @@ $memberList = [
 ];
 $smarty->assign("memberList", $memberList);
 
+$roomList = [
+"EA101",
+"EA105",
+"EA206",
+];
+$smarty->assign("roomList", $roomList);
+
 $smarty->display('index.tpl');
 ?>
 
