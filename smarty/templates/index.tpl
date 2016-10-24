@@ -12,7 +12,7 @@
 <table border="1">
 {{section name=i loop=$memberList step=1}}
 <tr>
-    <td>{{$memberList[i]}}</td>
+    <td bgcolor="{{cycle values="red,green"}}"> {{$memberList[i]}}</td>
 </tr>
 {{/section}}
 </table>
