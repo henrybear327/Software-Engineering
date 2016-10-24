@@ -26,29 +26,17 @@ $smarty->assign("str4", isset($str4) ? $str4 : null);
 $str5="add_8bit";
 $smarty->assign("str5", $str5);
 
-$str6="YOU CAN DO YOUR BEST !!!"; 
+$str6="YOU CAN DO YOUR BEST !!!";
 $smarty->assign("str6", $str6);
 
 $str7="No pain,no gain.";
 $smarty->assign("str7", $str7);
-    
+
 $memberList = [
-"曾俊宏",
-"陳煒杰", 
-"陳雅暄", 
-"陳丕祐",
-"盧昱廷",
-"黃鈺程",
-"簡毅",
-"林秉辭",
-"郭晏誌",
-"游智皓",
-"吳宛臻",
-"李晨維",
-"蔡瑞予",
-"歐陽欣妤",
-"黃資閔",
+"曾俊宏", "陳煒杰", "陳雅暄", "陳丕祐", "盧昱廷", "黃鈺程", "簡毅", "林秉辭",
+"郭晏誌", "游智皓", "吳宛臻", "李晨維", "蔡瑞予", "歐陽欣妤", "黃資閔",
 ];
+$smarty->assign("memberList", $memberList);
 
 $smarty->display('index.tpl');
 ?>

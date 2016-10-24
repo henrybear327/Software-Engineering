@@ -8,5 +8,14 @@
 {{$str5|indent:8:"*"|cat:"<br>"}}
 {{$str6|lower|cat:"<br>"}}
 {{$str7|replace:"No":"Have"|replace:"no":"have"|cat:"<br>"}}
+
+<table border="1">
+{{section name=i loop=$memberList step=1}}
+<tr>
+    <td>{{$memberList[i]}}</td>
+</tr>
+{{/section}}
+</table>
+
 </body>
 </html>
