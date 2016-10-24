@@ -1,7 +1,7 @@
 <?php
 include "./smarty/libs/Smarty.class.php";
 define('__SITE_ROOT',
-'/cshome/under/u103/tch103u/WWW/smarty');
+'/.amd_mnt/cs1/host/csdata/home/under/u103/tch103u/WWW/Software-Engineering/smarty');
 $smarty = new Smarty();
 $smarty->template_dir = __SITE_ROOT . "/templates/";
 $smarty->compile_dir = __SITE_ROOT . "/templates_c/";
