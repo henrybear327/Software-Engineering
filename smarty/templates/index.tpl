@@ -17,6 +17,19 @@
 {{/section}}
 </table>
 
+<hr>
+
+<table border="1">
+{{section name=i loop=$memberList step=1}}
+<tr bgcolor="{{cycle values="red,green"}}">
+    <td>{{$smarty.section.i.index}}</td>
+    <td>{{$memberList[i]}}</td>
+</tr>
+{{/section}}
+</table>
+
+<hr>
+
 <select>
 {{section name=i loop=$roomList step=1}}
     <option value="{{$roomList[i]}}">{{$roomList[i]}}</option>
