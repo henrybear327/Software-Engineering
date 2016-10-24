@@ -31,6 +31,24 @@ $smarty->assign("str6", $str6);
 
 $str7="No pain,no gain.";
 $smarty->assign("str7", $str7);
+    
+$memberList = [
+"曾俊宏",
+"陳煒杰", 
+"陳雅暄", 
+"陳丕祐",
+"盧昱廷",
+"黃鈺程",
+"簡毅",
+"林秉辭",
+"郭晏誌",
+"游智皓",
+"吳宛臻",
+"李晨維",
+"蔡瑞予",
+"歐陽欣妤",
+"黃資閔",
+];
 
 $smarty->display('index.tpl');
 ?>
