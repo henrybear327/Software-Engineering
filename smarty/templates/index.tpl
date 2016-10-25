@@ -9,6 +9,8 @@
 {{$str6|lower|cat:"<br>"}}
 {{$str7|replace:"No":"Have"|replace:"no":"have"|cat:"<br>"}}
 
+<hr>
+
 <table border="1">
 {{section name=i loop=$memberList step=1}}
 <tr>
